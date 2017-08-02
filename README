@@ -9,4 +9,5 @@ The program, when started, writes the usernames which belong to the maximal cliq
 two usernames are connected when they either belong to the same github organization or follow each other on twitter.
 
 How to start:
+You need to set your own Bearer token in the build.gradle for the twitter api to work.
 ./gradlew run -Dexec.args=<input> <output>
