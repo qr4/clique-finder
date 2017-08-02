@@ -1,0 +1,12 @@
+This is a small project I did to familiarize myself with RxJava2 and various online APIs (Twitter / Github).
+
+Given an input file with usernames with the following format:
+<username1>
+<username2>
+[...]
+
+The program, when started, writes the usernames which belong to the maximal clique of a graph, where
+two usernames are connected when they either belong to the same github organization or follow each other on twitter.
+
+How to start:
+./gradlew run -Dexec.args=<input> <output>
